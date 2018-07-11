@@ -1,0 +1,22 @@
+{
+  "name": "lazyport",
+  "version": "1.0.0",
+  "description": "Simple helper for working with airport data",
+  "main": "lazyport.js",
+  "types": "lazyport.d.ts",
+  "repository": "https://github.com/MihkelBaranov/lazyport",
+  "author": "Mihkel Baranov",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "ava test/**/*.js"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "ava": "^0.21.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
+}
